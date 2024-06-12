@@ -1,0 +1,7 @@
+<section class="section-hero hero-homepage">
+  <div class="container section-inner">
+    <h1>Welcome to our website</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+    <button>Learn More</button>
+  </div>
+</section>
