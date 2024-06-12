@@ -1,0 +1,39 @@
+/* Base section */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%; /* base font size */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/*... rest of the styles... */
+
+/* Responsive Typography */
+
+@media (max-width: 480px) {
+    html {
+        font-size: 57%; /* smaller font size for small screens */
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    html {
+        font-size: 60%; /* medium font size for medium screens */
+    }
+}
