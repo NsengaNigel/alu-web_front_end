@@ -1,0 +1,42 @@
+/* Card WORK */
+
+.card-work {
+    background-color: #333;
+    color: #fff;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-inner {
+    padding: 2rem;
+}
+
+.card-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.card-work a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Responsive Design */
+
+@media (max-width: 767px) {
+    .card-work .card-inner {
+        --text-color: var(--color-white);
+        position: relative;
+    }
+
+    .card-work .card-title {
+        opacity: 1;
+    }
+
+    .card-work .card-title a {
+        padding: 2rem 1rem 0 1rem;
+    }
+}
