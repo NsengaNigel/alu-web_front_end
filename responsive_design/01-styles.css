@@ -1,0 +1,17 @@
+.hero-homepage {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero.jpg");
+  background-position: 65% 8rem;
+  background-size: 90rem auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.section-hero .section-inner {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 2rem;
+  min-height: 35vh;
+}
